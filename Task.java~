@@ -57,7 +57,7 @@ public class Task
 			t = tasks[i];//.calculateEfficencyRatio();
 			sum_er += t.calculateEfficencyRatio();
 		}
-		return sum_er/taskCounter;
+		return sum_er;
 	}
 	
 	public static double calculateGeneraldeveloperEffectiveness(Task[] tasks)
@@ -71,19 +71,6 @@ public class Task
 		}
 		
 		return sum_de;
-	}
-	
-	public static double calculateGeneralPointValue(Task[] tasks)
-	{
-		double sum_pv = 0.0; 
-		Task t;
-		for(int i = 0; i < taskCounter; i++)
-		{
-			t = tasks[i];
-			sum_pv += t.pointValue;
-		}
-		
-		return sum_pv;
 	}
 	
 	
