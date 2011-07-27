@@ -1,3 +1,7 @@
+/**
+* http://leftnode.com/entry/algorithmically-estimating-developer-time
+*
+*/
 public class Task
 {
 	private int id;
