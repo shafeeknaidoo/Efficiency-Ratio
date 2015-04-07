@@ -14,7 +14,7 @@ public class TestTask
 		Task[] tasks = new Task[4];
 		for(int i = 0; i < 4; i++)
 		{
-			//tasks[i] =  new Task(i,"task1","new description",8,10,5,"incomplete");
+			tasks[i] =  new Task(i,"task1","new description",8,10,5,"incomplete");
 		}
 		tasks[2].printSummary();
 		
