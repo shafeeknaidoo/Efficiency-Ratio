@@ -47,7 +47,7 @@ public class Task
 		summary += "\nStatus: "+this.status;
 		summary += "\nEfficiency Ratio: "+this.calculateEfficencyRatio();
 		summary += "\nDeveloper Effectiveness: "+this.calculateDeveloperEffectiveness(this.calculateEfficencyRatio());
-		
+		summary = "No summary";
 		System.out.println(summary);
 		
 	}
