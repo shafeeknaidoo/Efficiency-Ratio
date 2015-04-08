@@ -7,7 +7,7 @@ public class Task
 	//private int id;
 	private String name;
 	private String description;
-	//private double pointValue;
+	private double pointValue;
 	private double estimateHours;
 	private double actualHours;	
 	private String status;
