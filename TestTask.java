@@ -16,7 +16,7 @@ public class TestTask
 		{
 			tasks[i] =  new Task(i,"task1","new description",8,10,5,"incomplete");
 		}
-		//tasks[2].printSummary();
+		tasks[2].printSummary();
 		
 		System.out.println("Efficiency Ratio\n"+Task.calculateGeneralEffieciencyRatio(tasks));
 		
