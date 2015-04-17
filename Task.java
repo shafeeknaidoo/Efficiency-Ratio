@@ -2,7 +2,7 @@
 * http://leftnode.com/entry/algorithmically-estimating-developer-time
 *
 */
-public class Task
+public class Tasks
 {
 	private int id;
 	private String name;
