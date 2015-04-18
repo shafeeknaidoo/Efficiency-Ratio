@@ -2,7 +2,7 @@
 * http://leftnode.com/entry/algorithmically-estimating-developer-time
 *
 */
-public class Tasks
+public class Task
 {
 	private int id;
 	private String name;
@@ -104,6 +104,11 @@ public class Tasks
 	public void setEstimate(double estimateHours)
 	{
 		this.estimateHours = estimateHours;	
+	}
+	
+	publis boolean tester()
+	{
+	    return true;
 	}
 	
 	

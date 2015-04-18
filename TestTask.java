@@ -34,6 +34,7 @@ public class TestTask
 	public static void main(String[] args)
 	{
 		System.out.println("Shafeek Naidoo2");
+		System.out.println("added test");
 		TestTask tpo = new TestTask();
 		tpo.run();
 		
