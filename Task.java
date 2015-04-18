@@ -106,7 +106,7 @@ public class Task
 		this.estimateHours = estimateHours;	
 	}
 	
-	publis boolean tester()
+	public boolean tester()
 	{
 	    return true;
 	}
