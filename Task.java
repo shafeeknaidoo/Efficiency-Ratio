@@ -11,7 +11,7 @@ public class Task
 	private double estimateHours;
 	private double actualHours;	
 	private String status;
-	//static int taskCounter;
+	static int taskCounter;
 	
 	public Task(int id,String name,String description,double pointValue,double estimateHours,double actualHours,String status)
 	{
