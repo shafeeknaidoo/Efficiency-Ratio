@@ -2,7 +2,7 @@
 * http://leftnode.com/entry/algorithmically-estimating-developer-time
 *
 */
-public class Task
+public class Tasks
 {
 	private int id;
 	private String name;
@@ -12,6 +12,8 @@ public class Task
 	private double actualHours;	
 	private String status;
 	static int taskCounter;
+	
+	//change here
 	
 	public Task(int id,String name,String description,double pointValue,double estimateHours,double actualHours,String status)
 	{

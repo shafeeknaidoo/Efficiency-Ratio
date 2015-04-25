@@ -1,6 +1,6 @@
 public class TestTask
 {
-	public void run()
+	public void run()// the runs for real
 	{ 
 		Task t = new Task(1,"task1","new description",8,3,10,"incomplete");
 		Task t1 = new Task(1,"task1","new description",8,3,10,"incomplete");
