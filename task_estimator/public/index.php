@@ -1,4 +1,6 @@
 <?php
+//whjatever
+//beva
 
 // Define path to application directory
 defined('APPLICATION_PATH')
