@@ -1,14 +1,7 @@
 public class TestTask
 {
 	public void run()
-	{/* 
-		Task t = new Task(1,"task1","new description",8,3,10,"incomplete");
-		Task t1 = new Task(1,"task1","new description",8,3,10,"incomplete");
-		Task t2 = new Task(1,"task1","new description",8,3,10,"incomplete");
-		
-		double effiecienyRatio = t.calculateEfficencyRatio();
-		double developerEffectiveness = t.calculateDeveloperEffectiveness(effiecienyRatio);
-		t.printSummary(); */
+	{
 		
 		
 		Task[] tasks = new Task[4];
