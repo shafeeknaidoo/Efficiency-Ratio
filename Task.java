@@ -5,6 +5,7 @@
 public class Task
 {
 	private int id;
+	public int poobear
 	private String name;
 	private String description;
 	private double pointValue;
